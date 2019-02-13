@@ -1,0 +1,44 @@
+{
+  "name": "taekwan-hwang.github.io",
+  "version": "0.0.1",
+  "description": "Ethan's github page",
+  "main": "index.js",
+  "author": "Ethan",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "deploy": "gatsby build && gh-pages -b master"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.9.4",
+    "gatsby": "^2.0.33",
+    "gatsby-plugin-manifest": "^2.0.12",
+    "gatsby-plugin-offline": "^2.0.20",
+    "gatsby-plugin-react-helmet": "^3.0.4",
+    "gatsby-plugin-styled-components": "^3.0.4",
+    "gatsby-plugin-typography": "^2.2.2",
+    "gatsby-remark-prismjs": "^3.1.4",
+    "gatsby-source-filesystem": "^2.0.12",
+    "gatsby-transformer-remark": "^2.1.15",
+    "prismjs": "^1.15.0",
+    "prop-types": "^15.7.1",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.2.2",
+    "react-typography": "^0.16.18",
+    "styled-components": "^4.1.2",
+    "typography": "^0.16.18",
+    "typography-theme-bootstrap": "^0.16.18"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "gh-pages": "^2.0.1"
+  }
+}
