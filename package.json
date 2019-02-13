@@ -4,12 +4,16 @@
   "description": "Ethan's github page",
   "main": "index.js",
   "author": "Ethan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taekwan-hwang/taekwan-hwang.github.io.git"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build && gh-pages -b master"
+    "deploy": "gatsby build && gh-pages -b master -d public"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.9.4",
