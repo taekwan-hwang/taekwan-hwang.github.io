@@ -107,6 +107,7 @@ npm i --save-dev gh-pages
 ```shell
 npm run deploy
 ```
+
 본인 [github.io](https://{username}.github.io) 로 들어가서 원하는 페이지가 나온다면 성공이다.
 
 프로젝트 명이 github.io가 아니라면, prefix 설정도 해주어야 한다. 이 또한 [도큐먼트](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/)에 있으니 참고하면 좋다.
