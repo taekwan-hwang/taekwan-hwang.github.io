@@ -11,6 +11,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
+    "test": "echo \"no test specified\" && exit 0",
     "build": "gatsby build",
     "serve": "gatsby serve",
     "deploy": "gatsby build && gh-pages -b master -d public"
