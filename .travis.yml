@@ -9,20 +9,10 @@ branches:
     - master
   only:
     - develop
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  local_dir: public
-  keep-history: true
-  on:
-    branch: develop
-  target-branch: master
-  local-dir: ./public
 before_script:
   - "npm i -g gatsby"
   - "npm i"
 script:
   - "npm run test"
 after_success:
-  - "npm run build"
+  - "npm run deploy"
