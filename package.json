@@ -32,6 +32,7 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.2.2",
+    "react-pdf-js-infinite": "^1.2.0",
     "react-typography": "^0.16.18",
     "styled-components": "^4.1.2",
     "typography": "^0.16.18",
