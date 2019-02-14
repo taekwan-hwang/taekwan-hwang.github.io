@@ -18,7 +18,7 @@ deploy:
   on:
     branch: develop
   target-branch: master
-  local-dir: public
+  local-dir: ./public
 before_script:
   - "npm i -g gatsby"
   - "npm i"
