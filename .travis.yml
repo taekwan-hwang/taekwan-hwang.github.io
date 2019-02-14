@@ -16,11 +16,13 @@ deploy:
   local_dir: public
   keep-history: true
   on:
-    branch: master
+    branch: develop
+  target-branch: master
+  local-dir: public
 before_script:
   - "npm i -g gatsby"
   - "npm i"
 script:
   - "npm run test"
 after_success:
-  - "npm run deploy"
+  - "npm run build"
